@@ -8,7 +8,7 @@ import hotelsRoute from "./routes/Hotels.js";
 import roomsRoute from "./routes/Rooms.js";
 import bodyParser from "body-parser";
 import cookieparser from "cookie-parser";
-require("dotenv").config();
+
 
 const app = express();
 
