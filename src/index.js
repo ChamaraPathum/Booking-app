@@ -1,6 +1,6 @@
 import express from "express";
+require("dotenv").config();
 import cors from "cors";
-import dotenv from "dotenv";
 import mongoose from "mongoose";
 import authRoute from "./routes/Auth.js";
 import usershRoute from "./routes/Users.js";
@@ -8,7 +8,7 @@ import hotelsRoute from "./routes/Hotels.js";
 import roomsRoute from "./routes/Rooms.js";
 import bodyParser from "body-parser";
 import cookieparser from "cookie-parser";
-require("dotenv").config();
+
 
 const app = express();
 
